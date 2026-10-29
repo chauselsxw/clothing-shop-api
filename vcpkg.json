@@ -1,0 +1,18 @@
+{
+  "name": "clothing-shop",
+  "version": "1.0.0",
+  "builtin-baseline": "d4c0a46cb8f63e5c9fa007d13baf1cb3e43bf7e3",
+  "dependencies": [
+    "libpqxx",
+    {
+      "name": "libpq",
+      "default-features": false
+    },
+    {
+      "name": "cpp-httplib",
+      "default-features": false
+    },
+    "nlohmann-json",
+    "gtest"
+  ]
+}
